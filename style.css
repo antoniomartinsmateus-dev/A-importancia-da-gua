@@ -1,0 +1,72 @@
+/* Configuração geral do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Caixa principal do contador */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo do número do contador */
+#valor {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Área dos botões */
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Estilo padrão de todos os botões */
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    flex: 1;
+}
+
+/* Cores individuais dos botões para dar destaque */
+#diminuir {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#resetar {
+    background-color: #7f8c8d;
+    color: white;
+}
+
+#aumentar {
+    background-color: #2ecc71;
+    color: white;
+}
+
+/* Efeito de passar o mouse por cima (hover) */
+button:hover {
+    opacity: 0.85;
+}
